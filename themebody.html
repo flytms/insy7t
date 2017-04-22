@@ -1,0 +1,58 @@
+<div class="container main">
+
+<div class="row is-table-row">
+    <div class="col-sm-1 hidden-xs">
+    </div>
+    <div class="col-sm-1 hidden-xs postheight nuberlinetop">
+        <!--            <h1>I</h1>-->
+    </div>
+    <div class="col-sm-9">
+
+        <div class="row">
+            <div class="col-sm-8 postheight headerimage-col">
+                <div class="headerbackground">
+                {block:ShowHeaderImage}
+                    <img class="img-responsive hidden-sm hederimage-xs" src="{HeaderImage}">
+                {/block:ShowHeaderImage}
+                </div>
+            </div>
+            <div class="col-sm-4 postheight headeravatar-col">
+                <!--                            <img class="img-responsive" src="img/rectcolor.png">-->
+            </div>
+        </div>
+
+    </div>
+    <div class="col-sm-1 hidden-xs">
+    </div>
+</div>
+
+
+<div class="row is-table-row post-nine-block">
+    <div class="col-xs-1 hidden-xs">
+    </div>
+    <div class="col-xs-2 col-sm-1  nuberline">
+        <h1>I</h1>
+    </div>
+    <div class="col-xs-10 col-sm-9 posts-col">
+        
+        <div class="row post-row">
+           <div class="bigsqare"></div>
+           {block:Posts}
+            <div class="col-sm-4 postheight square">
+                {block:Photo}
+               <div class="post photo" style="background-image:url({PhotoURL-HighRes})">
+                   <div class="controls">
+                   </div>
+               </div>
+               {/block:Photo}
+            </div>
+            {/block:Posts}
+        </div>
+        
+
+    </div>
+    <div class="col-xs-1">
+    </div>
+</div>
+</div>
+<br><br>
